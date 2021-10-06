@@ -1,4 +1,4 @@
-import { playerWon, computerChoice } from './choices.js';
+import { didPlayerWin, computerRandom } from '../choices.js';
 
 // import functions and grab DOM elements
 const winCounter = document.getElementById('wincount');
@@ -17,7 +17,8 @@ let ties = 0;
 
 fightButton.addEventListener = ('click', () => {
   const selected = document.querySelector('input[type=radio]:checked');
-  
+  const playerChoice = selected.ariaValueMax;
+  const computerChoice = computerRandom
 
   }
 })

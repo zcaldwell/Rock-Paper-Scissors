@@ -1,4 +1,4 @@
-export function playerWon(playerChoice, computerChoice){
+export function didPlayerWin(playerChoice, computerChoice){
     if (playerChoice === computerChoice) {
         return draw;
     } else if ( playerChoice === 'rock' && computerChoice === 'scissors') {
@@ -14,10 +14,10 @@ export function playerWon(playerChoice, computerChoice){
     } else if ( playerChoice === 'scisors' && computerChoice === 'paper') {
         return true;
     }
-    
+}
     
 
 
 export function computerRandom(){
-    return ['rock', 'paper', 'scissors'][(Math.round(Math.random(2)))];
+    return ['rock', 'paper', 'scissors'][(Math.round(Math.random() * 3))];
 }
