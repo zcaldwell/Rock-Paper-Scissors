@@ -13,7 +13,8 @@
 </head>
 
 <body>
-    <section>
+    <h1>Rock Paper Scissors</h1>
+    <section class="picturebox">
         <label>
         <input type="radio" name="pick"  id="rock" value="rock">
         <img src="./assets/therock.jpg" class="pictures" alt="picture of the rock" id="rockpic">
@@ -27,12 +28,15 @@
         <img src="./assets/scissors.jpg" class="pictures" alt="picture of edward" id="paperpic">
         </label>
     </section>
+    <p>Pick an Option and hit the Fight button. Use the Reset button to put totals to 0.</p>
+    <section>
     <button id="fight">Fight!</button>
     <p>You've tied <span id="ties">0</span> battles!</p>
     <p>You've won <span id="wincount">0</span> battles!</p>
     <p>You've lost <span id="losscount">0</span> battles!</p>
     <button id="reset">Reset</button>
     <p>You've reset <span id="resetcount">0</span> times!<p>
+    </section>
     <script type="module" src="./app.js"></script>
 </body>
 
