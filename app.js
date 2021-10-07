@@ -31,7 +31,7 @@ fightButton.addEventListener('click', () => {
         losses++; 
     }
     
-    it winCounter.textContent = wins;
+    winCounter.textContent = wins;
     lossCounter.textContent = losses;
     tieCounter.textContent = ties;
 });
