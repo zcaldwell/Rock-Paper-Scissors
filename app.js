@@ -1,4 +1,4 @@
-import { didPlayerWin, computerRandom } from '../choices.js';
+import { didPlayerWin, computerRandom } from './choices.js';
 // import functions and grab DOM elements
 const winCounter = document.getElementById('wincount');
 const lossCounter = document.getElementById('losscount');
