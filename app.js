@@ -1,5 +1,4 @@
 import { didPlayerWin, computerRandom } from '../choices.js';
-
 // import functions and grab DOM elements
 const winCounter = document.getElementById('wincount');
 const lossCounter = document.getElementById('losscount');
@@ -31,9 +30,8 @@ fightButton.addEventListener('click', () => {
     } else {
         losses++; 
     }
-        
-
-    winCounter.textContent = wins;
+    
+    it winCounter.textContent = wins;
     lossCounter.textContent = losses;
     tieCounter.textContent = ties;
 });
