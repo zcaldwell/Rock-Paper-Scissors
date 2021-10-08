@@ -15,9 +15,6 @@ export function didPlayerWin(playerChoice, computerChoice){
     return 'wins';
 }
 
-    
-
-
 export function computerRandom(){
     return ['rock', 'paper', 'scissors'][(Math.round(Math.random() * 3))];
 }
